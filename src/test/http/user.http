@@ -1,0 +1,18 @@
+# curl -i http://httpbin.org/ip
+GET http://httpbin.org/ip
+
+###
+
+###查询所有用户
+GET http://localhost:8080/getList
+content-type:application/json
+
+{
+}
+
+###查询所有用户
+GET http://192.168.1.103:8080/getList
+content-type:application/json
+
+{
+}
